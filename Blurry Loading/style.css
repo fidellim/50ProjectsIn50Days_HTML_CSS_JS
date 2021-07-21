@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1.5rem;
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+.bg {
+	background-image: url("./redMountain.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	inset: -4.5rem;
+	z-index: -1;
+	filter: blur(3rem);
+}
