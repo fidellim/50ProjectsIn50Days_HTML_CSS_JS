@@ -9,3 +9,4 @@ A collection of responsive projects I made within 50 days using HTML, CSS, and J
 |  3  | Rotating Navigation  |    [Live](https://awesome-tesla-d27542.netlify.app/)     |
 |  4  | Hidden Search Widget | [Live](https://infallible-mccarthy-c91d43.netlify.app/)  |
 |  5  | Blurry Loading       |    [Live](https://serene-spence-39d173.netlify.app/)     |
+|  6  | Scroll Animation     |   [Live](https://jovial-thompson-624ce3.netlify.app/)    |
