@@ -2,11 +2,14 @@
 
 A collection of responsive projects I made within 50 days using HTML, CSS, and JS.
 
-| Day | Project Name         |                        Live Demo                         |
-| :-: | -------------------- | :------------------------------------------------------: |
-|  1  | Expanding Cards      | [Live](https://xenodochial-franklin-f24ed6.netlify.app/) |
-|  2  | Progress Steps       |   [Live](https://wonderful-edison-11b6d5.netlify.app/)   |
-|  3  | Rotating Navigation  |    [Live](https://awesome-tesla-d27542.netlify.app/)     |
-|  4  | Hidden Search Widget | [Live](https://infallible-mccarthy-c91d43.netlify.app/)  |
-|  5  | Blurry Loading       |    [Live](https://serene-spence-39d173.netlify.app/)     |
-|  6  | Scroll Animation     |   [Live](https://jovial-thompson-624ce3.netlify.app/)    |
+Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
+
+| Day | Project Name         |                                       Live Demo                                       |
+| :-: | -------------------- | :-----------------------------------------------------------------------------------: |
+|  1  | Expanding Cards      |    [Live](https://50-projects-in-50-days-fidellim.netlify.app/expanding%20cards/)     |
+|  2  | Progress Steps       |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/progress%20steps/)     |
+|  3  | Rotating Navigation  |  [Live](https://50-projects-in-50-days-fidellim.netlify.app/rotating%20navigation/)   |
+|  4  | Hidden Search Widget | [Live](https://50-projects-in-50-days-fidellim.netlify.app/hidden%20search%20widget/) |
+|  5  | Blurry Loading       |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/blurry%20loading/)     |
+|  6  | Scroll Animation     |    [Live](https://50-projects-in-50-days-fidellim.netlify.app/scroll%20animation/)    |
+|  7  | Split Landing Page   |  [Live](https://50-projects-in-50-days-fidellim.netlify.app/split%20landing%20page/)  |
