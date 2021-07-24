@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: flex 0.7s ease-in-out;
+	overflow: hidden;
+}
+
+.item h1 {
+	white-space: nowrap;
+	font-weight: 700;
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.item--left {
+	background: linear-gradient(rgba(29, 38, 113, 0.5), rgba(29, 38, 113, 0.5)),
+		url("./images/apple2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	flex: 1;
+}
+
+.item--left h1 {
+	color: white;
+}
+
+.item--left:hover {
+	flex: 3;
+}
+
+.item--right {
+	flex: 1;
+	background: linear-gradient(rgba(195, 55, 100, 0.3), rgba(195, 55, 100, 0.3)),
+		url("./images/samsung.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.item--right h1 {
+	color: black;
+}
+
+.item--right:hover {
+	flex: 3;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btn {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	border: 0;
+	font-weight: 300;
+	font-size: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+	overflow: hidden;
+	transition: all 0.4s ease;
+}
+
+.btn h3 {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	margin-right: 2.5rem;
+}
+
+.btn--left {
+	background-color: white;
+	color: black;
+}
+
+.btn--left:hover {
+	background-color: black;
+	color: white;
+}
+
+.btn--right {
+	background-color: black;
+	color: white;
+}
+
+.btn--right:hover {
+	background-color: white;
+	color: black;
+}
+
+.arrowContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 40px;
+}
+
+.arrowContainer--left {
+	background-color: black;
+	color: white;
+}
+
+.arrowContainer--right {
+	background-color: white;
+	color: black;
+}
+
+@media (min-width: 500px) {
+	.container {
+		display: flex;
+		flex-direction: row;
+	}
+}
