@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -9,23 +10,43 @@
 body {
 	font-family: "Roboto", sans-serif;
 	background-color: #e2bcaf;
-	/* background-color: #5c4440; */
+}
+
+header {
+	margin: 0 auto;
+	padding: 2rem 1rem;
 }
 
 h1 {
 	text-align: center;
 	font-family: "Libre Baskerville", serif;
-	margin: 2rem 1rem;
+	margin-bottom: 1rem;
+}
+
+.shortDesc {
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.githubLink {
+	cursor: pointer;
+	border-bottom: 2px solid black;
+}
+
+.githubLink:hover {
+	opacity: 0.8;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.8);
 }
 
 .projects {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	margin-top: 2rem;
 	max-width: 1400px;
 	width: 100%;
-	margin: 2rem auto 0 auto;
+	margin: 0 auto 0 auto;
 }
 
 .project {
@@ -51,7 +72,7 @@ h1 {
 	max-width: 150px;
 	height: auto;
 	border-radius: 5px;
-	padding: 0.25rem;
+	padding: 0.5rem 0.75rem;
 	text-align: center;
 	font-weight: 700;
 	font-size: 1.25rem;
@@ -77,12 +98,11 @@ h1 {
 
 .project__links {
 	position: absolute;
-	bottom: 0.55rem;
-	left: 1rem;
-	width: 100px;
+	bottom: 0rem;
+	left: 0rem;
 	height: auto;
-	border-radius: 5px;
-	padding: 0.25rem 0;
+	border-radius: 0px 5px 0px;
+	padding: 0.5rem 1rem;
 	background-color: bisque;
 	display: flex;
 	align-items: center;
@@ -103,6 +123,7 @@ h1 {
 a,
 a:hover {
 	text-decoration: none;
+	color: black;
 }
 
 img {
