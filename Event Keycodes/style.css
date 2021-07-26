@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+	--veryLightGreen: #c9cea1;
+	--lightGreen: #c2cd70;
+	--darkGreen: #5f9f95;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Muli", sans-serif;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--darkGreen);
+}
+
+.keys {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 1rem;
+}
+
+.key {
+	margin: 1rem;
+	padding: 0;
+}
+
+.key h4 {
+	display: block;
+	font-size: 1rem;
+	text-align: center;
+	padding: 1rem 1.5rem;
+}
+
+.key > div {
+	padding: 0.5rem 1.5rem;
+	background-color: var(--veryLightGreen);
+}
+
+.key small {
+	font-size: 0.9rem;
+}
+
+.prompt {
+	padding: 0.75rem 1.25rem;
+}
+
+.box {
+	background-color: var(--lightGreen);
+}
+
+@media (min-width: 330px) {
+	.keys {
+		justify-content: space-between;
+	}
+
+	.key {
+		margin: 0 1rem;
+	}
+}
