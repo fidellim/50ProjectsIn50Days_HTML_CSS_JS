@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: url("./images/aurora.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* resource for glassmorphism */
+/* https://webdesign.tutsplus.com/tutorials/how-to-create-a-frosted-glass-effect-in-css--cms-32535 */
+.card {
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(5px);
+	width: 100%;
+	max-width: 600px;
+	border-radius: 5px;
+	padding: 1.5rem;
+	color: rgb(0, 0, 0);
+	margin: 0 2rem;
+	box-shadow: 15px 15px 0px black;
+}
+
+.card h1 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.card__joke {
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+	margin: 1.5rem 0;
+	line-height: 1.5;
+}
+
+.btn {
+	display: block;
+	margin: 0 auto;
+	border: 0;
+	background-color: rgb(3, 60, 86);
+	color: white;
+	padding: 0.75rem 1.25rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn:active {
+	transform: scale(0.98);
+}

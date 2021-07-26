@@ -15,3 +15,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 |  7  | Split Landing Page   |  [Live](https://50-projects-in-50-days-fidellim.netlify.app/split%20landing%20page/)  |
 |  8  | Form Wave Animation  | [Live](https://50-projects-in-50-days-fidellim.netlify.app/form%20wave%20animation/)  |
 |  9  | Sound Board          |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/sound%20board/)       |
+| 10  | Dad Jokes            |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/dad%20jokes/)        |
