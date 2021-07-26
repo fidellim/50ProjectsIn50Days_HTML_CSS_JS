@@ -18,3 +18,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 10  | Dad Jokes            |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/dad%20jokes/)        |
 | 11  | Event Keycodes       |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/event%20keycodes/)     |
 | 12  | FAQ Collapse         |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/faq%20collapse/)      |
+| 13  | Random Choice Picker | [Live](https://50-projects-in-50-days-fidellim.netlify.app/random%20choice%20picker/) |
