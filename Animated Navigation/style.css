@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+	--bg-top: #14213d;
+	--bg-btm: #fca311;
+	--bg-nav: #e5e5e5;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Muli", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(
+		to bottom,
+		var(--bg-top) 0%,
+		var(--bg-top) 50%,
+		var(--bg-btm) 50%,
+		var(--bg-btm) 100%
+	);
+}
+
+nav {
+	background-color: var(--bg-nav);
+	padding: 1.5rem 1rem;
+	margin: 0 1rem;
+	width: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	transition: width 0.6s linear;
+	overflow: hidden;
+}
+
+nav.active {
+	width: 25rem;
+	padding: 1.5rem 1.5rem 1.5rem 1rem;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 0;
+	transition: width 0.6s linear;
+}
+
+nav.active ul {
+	width: 100%;
+}
+
+nav ul li {
+	transform: rotateY(0deg);
+	opacity: 0;
+	transition: transform 0.6s linear, opacity 0.6s linear;
+}
+
+nav.active ul li {
+	opacity: 1;
+	transform: rotateY(360deg);
+}
+
+nav ul a {
+	position: relative;
+	color: black;
+	text-decoration: none;
+	margin: 0 0.25rem;
+}
+
+.icon {
+	display: block;
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	position: relative;
+	height: 30px;
+	width: 20px;
+}
+
+.icon:focus {
+	outline: 0;
+}
+
+.icon .line {
+	position: absolute;
+	background-color: #14213d;
+	height: 2px;
+	width: 20px;
+	transition: transform 0.6s linear;
+}
+
+.icon .line1 {
+	top: 10px;
+}
+
+.icon .line2 {
+	bottom: 10px;
+}
+
+nav.active .icon .line1 {
+	transform: rotate(-765deg) translateY(5.5px);
+}
+
+nav.active .icon .line2 {
+	transform: rotate(765deg) translateY(-5.5px);
+}
+
+@media (min-width: 390px) {
+	nav ul a {
+		margin: 0 0.75rem;
+	}
+}
