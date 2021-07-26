@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+	--bg-color: rgb(23, 17, 51);
+	--primary: rgb(219, 211, 228);
+	--secondary: rgb(59, 49, 112);
+	--bubble: rgba(255, 255, 255, 0.4):
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: var(--bg-color);
+}
+
+h1 {
+	text-align: center;
+	margin: 1rem 0;
+	color: var(--primary);
+}
+
+.faqs {
+	padding: 1rem;
+}
+
+.faq {
+	position: relative;
+	max-width: 600px;
+	width: 100%;
+	background-color: var(--secondary);
+	border-radius: 5px;
+	margin: 0 auto 1rem auto;
+	overflow: hidden;
+	color: var(--primary);
+}
+
+.faq__heading {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	overflow: hidden;
+}
+
+.faq.active .faq__heading{
+	border-bottom: 2px solid var(--primary);
+}
+
+.faq__question{
+	padding-right: 1.5rem;
+}
+
+.btn {
+	border: 0;
+	background-color: transparent;
+}
+
+.fa-times,
+.fa-chevron-down {
+	position: absolute;
+	top: 50%;
+	right: 1rem;
+	color: var(--primary);
+	cursor: pointer;
+}
+
+.faq.active .faq__heading .fa-times {
+	transform: translateY(-50%);
+}
+
+.fa-times {
+	transition: all 0.3s ease;
+	transform: translateY(350%);
+}
+
+.faq.active .faq__heading .fa-chevron-down {
+	transform: translateY(-400%);
+}
+
+.fa-chevron-down {
+	transform: translateY(-50%);
+	transition: all 0.3s ease;
+}
+
+.faq.active .faq__answer {
+	height: 150px;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+}
+
+.faq__answer {
+	position: relative;
+	display: block;
+	transition: all 0.5s ease;
+	overflow: hidden;
+	height: 0;
+}
+
+/* chat bubble logos */
+.faq__answer::before,
+.faq__answer::after {
+	position: absolute;
+	content: "\f075";
+	font-family: "Font Awesome 5 Free";
+	font-size: 2rem;
+	opacity: 0.2;
+	z-index: 0;
+}
+
+.faq__answer::before {
+	bottom: .25rem;
+	right: 1.55rem;
+	color: var(--bubble);
+}
+
+.faq__answer::after {
+	bottom: .85rem;
+	right: .75rem;
+	color: var(--bubble);
+	transform: rotateY(180deg);
+}
+
+@media (min-width: 540px) {
+	.faq.active .faq__heading .fa-times {
+		transform: translateY(-50%);
+	}
+
+	.fa-times {
+		transition: all 0.3s ease;
+		transform: translateY(250%);
+	}
+
+	.faq.active .faq__heading .fa-chevron-down {
+		transform: translateY(-300%);
+	}
+
+	.fa-chevron-down {
+		transform: translateY(-50%);
+		transition: all 0.3s ease;
+	}
+
+	.faq.active .faq__answer {
+		height: 100px;
+	}
+}

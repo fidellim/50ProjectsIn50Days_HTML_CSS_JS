@@ -17,3 +17,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 |  9  | Sound Board          |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/sound%20board/)       |
 | 10  | Dad Jokes            |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/dad%20jokes/)        |
 | 11  | Event Keycodes       |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/event%20keycodes/)     |
+| 12  | FAQ Collapse         |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/faq%20collapse/)      |
