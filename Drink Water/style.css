@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+	--text: #edf6f9;
+	--bg-color: #006d77;
+	--secondary: #83c5be;
+	--water: rgb(0, 153, 255);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	background-color: var(--bg-color);
+	color: var(--text);
+	padding: 0 1rem;
+}
+
+h1,
+h3,
+p {
+	margin: 1rem 0;
+}
+
+.cup {
+	display: flex;
+	background-color: white;
+	color: black;
+	border: 5px solid var(--secondary);
+	overflow: hidden;
+	font-weight: 600;
+	font-size: 1rem;
+	transition: 0.3s ease;
+}
+
+.cup.bigCup {
+	position: relative;
+	max-width: 15rem;
+	width: 100%;
+	height: 20rem;
+	border-bottom-right-radius: 80px;
+	border-bottom-left-radius: 80px;
+	margin: 0 auto;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.reminder {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.6s ease;
+}
+
+.remained {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.25rem;
+	transition: 0.3s ease;
+}
+
+.liters {
+	transition: 0.3s ease;
+}
+
+.percentage {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: var(--water);
+	transition: 0.6s ease-in-out;
+}
+
+.bigCupWave {
+	position: absolute;
+	top: 0px;
+	content: "";
+	background: url("./images/wave.svg");
+	height: 10px;
+	width: 100%;
+	transition: 0.7s ease-in-out;
+	animation: animate 100s linear infinite;
+}
+
+.cups {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.cup.cupSmall {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 5rem;
+	width: 100%;
+	height: 7.5em;
+	border-bottom-right-radius: 80px;
+	border-bottom-left-radius: 80px;
+	margin: 0.75rem 0.5rem;
+	cursor: pointer;
+}
+
+.cup.cupSmall.full {
+	background-color: var(--water);
+	color: var(--text);
+}
+
+@keyframes animate {
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: 1000px;
+	}
+}

@@ -21,3 +21,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 13  | Random Choice Picker | [Live](https://50-projects-in-50-days-fidellim.netlify.app/random%20choice%20picker/) |
 | 14  | Animated Navigation  |  [Live](https://50-projects-in-50-days-fidellim.netlify.app/animated%20navigation/)   |
 | 15  | Incrementing Counter |  [Live](https://50-projects-in-50-days-fidellim.netlify.app/incrementing%20counter/)  |
+| 16  | Drink Water          |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/drink%20water/)       |
