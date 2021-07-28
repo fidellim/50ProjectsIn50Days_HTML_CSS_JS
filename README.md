@@ -22,3 +22,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 14  | Animated Navigation  |  [Live](https://50-projects-in-50-days-fidellim.netlify.app/animated%20navigation/)   |
 | 15  | Incrementing Counter |  [Live](https://50-projects-in-50-days-fidellim.netlify.app/incrementing%20counter/)  |
 | 16  | Drink Water          |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/drink%20water/)       |
+| 17  | Movie App            |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/movie%20app/)        |
