@@ -107,6 +107,12 @@ const data = [
 		img_link: "./_images/background_slider_sc.png",
 		project_link: "./Background Slider/index.html",
 	},
+	{
+		title: "Theme Clock",
+		day: 19,
+		img_link: "./_images/theme_clock_sc.png",
+		project_link: "./Theme Clock/index.html",
+	},
 ];
 
 export default data;

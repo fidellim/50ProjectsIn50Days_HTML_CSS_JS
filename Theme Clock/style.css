@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+	/** sunny side **/
+	--blue-background: #c2e9f6;
+	--blue-border: #72cce3;
+	--blue-color: #96dcee;
+	--yellow-background: #fffaa8;
+	--yellow-border: #f5eb71;
+	/** dark side **/
+	--indigo-background: #808fc7;
+	--indigo-border: #5d6baa;
+	--indigo-color: #6b7abb;
+	--gray-border: #e8e8ea;
+	--gray-dots: #e8e8ea;
+	/** general **/
+	--white: #fff;
+
+	--primary: black;
+	--secondary: rgb(0, 0, 0);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--blue-background);
+	transition: 1s ease;
+}
+
+body.dark {
+	--blue-background: #808fc7;
+	--primary: #2a3044;
+	--secondary: #2a3044;
+}
+
+.clockContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.clock {
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.needle {
+	background-color: black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 65px;
+	width: 3px;
+	transform-origin: bottom center;
+	transition: all 0.3s ease-in;
+}
+
+.needle.hour {
+	transform: translate(-50%, -100%) rotate(0deg);
+}
+
+.needle.min {
+	transform: translate(-50%, -100%) rotate(30deg);
+	height: 100px;
+}
+
+.needle.sec {
+	transform: translate(-50%, -100%) rotate(30deg);
+	height: 100px;
+	background-color: #e74c3c;
+}
+
+.centerPoint {
+	position: absolute;
+	background-color: #e74c3c;
+	width: 10px;
+	height: 10px;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.centerPoint::before {
+	content: "";
+	position: absolute;
+	background-color: var(--secondary);
+	width: 5px;
+	height: 5px;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.time {
+	font-size: 5rem;
+	font-weight: 300;
+	text-align: center;
+	color: var(--primary);
+}
+
+.date {
+	color: var(--secondary);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+.myToggle {
+	transform: scale(0.5);
+}
+
+.toggle--checkbox {
+	display: none;
+}
+
+.toggle--checkbox:checked + .toggle--label {
+	background: var(--indigo-color);
+	border-color: var(--indigo-border);
+	/** Change the cloud to stars **/
+	/** Change the sun into the moon **/
+	/** Show the dimples on the moon **/
+}
+.toggle--checkbox:checked + .toggle--label .toggle--label-background {
+	left: 60px;
+	width: 5px;
+}
+.toggle--checkbox:checked + .toggle--label .toggle--label-background:before {
+	width: 5px;
+	height: 5px;
+	top: -25px;
+}
+.toggle--checkbox:checked + .toggle--label .toggle--label-background:after {
+	width: 5px;
+	height: 5px;
+	left: -30px;
+	top: 20px;
+}
+.toggle--checkbox:checked + .toggle--label:before {
+	background: var(--white);
+	border-color: var(--gray-border);
+	animation-name: switch;
+	animation-duration: 350ms;
+	animation-fill-mode: forwards;
+}
+.toggle--checkbox:checked + .toggle--label:after {
+	transition-delay: 350ms;
+	opacity: 1;
+}
+.toggle--label {
+	/** Placeholder element, starting at blue **/
+	width: 200px;
+	height: 100px;
+	background: var(--blue-color);
+	border-radius: 100px;
+	border: 5px solid var(--blue-border);
+	display: flex;
+	position: relative;
+	transition: all 350ms ease-in;
+	/** The sun cloud and moon stars **/
+	/** Sun/Moon element **/
+	/** Gray dots on the moon **/
+}
+.toggle--label-background {
+	width: 10px;
+	height: 5px;
+	border-radius: 5px;
+	position: relative;
+	background: var(--white);
+	left: 135px;
+	top: 45px;
+	transition: all 150ms ease-in;
+}
+.toggle--label-background:before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	width: 40px;
+	height: 5px;
+	border-radius: 5px;
+	background: var(--white);
+	left: -20px;
+	transition: all 150ms ease-in;
+}
+.toggle--label-background:after {
+	content: "";
+	position: absolute;
+	top: 5px;
+	width: 40px;
+	height: 5px;
+	border-radius: 5px;
+	background: var(--white);
+	left: -10px;
+	transition: all 150ms ease-in;
+}
+.toggle--label:before {
+	animation-name: reverse;
+	animation-duration: 350ms;
+	animation-fill-mode: forwards;
+	transition: all 350ms ease-in;
+	content: "";
+	width: 80px;
+	height: 80px;
+	border: 5px solid var(--yellow-border);
+	position: absolute;
+	border-radius: 82px;
+	background: var(--yellow-background);
+}
+.toggle--label:after {
+	transition-delay: 0ms;
+	transition: all 250ms ease-in;
+	position: absolute;
+	content: "";
+	box-shadow: var(--gray-dots) -13px 0 0 2px, var(--gray-dots) -24px 14px 0 -2px;
+	left: 143px;
+	top: 23px;
+	width: 10px;
+	height: 10px;
+	background: transparent;
+	border-radius: 50%;
+	opacity: 0;
+}
+
+@keyframes switch {
+	0% {
+		left: 4px;
+	}
+	60% {
+		left: 4px;
+		width: 112px;
+	}
+	100% {
+		left: 98px;
+		width: 82px;
+	}
+}
+@keyframes reverse {
+	0% {
+		left: 104px;
+		width: 82px;
+	}
+	60% {
+		left: 72px;
+		width: 112px;
+	}
+	100% {
+		left: 0px;
+	}
+}
