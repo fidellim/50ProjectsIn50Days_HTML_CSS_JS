@@ -101,6 +101,12 @@ const data = [
 		img_link: "./_images/movie_app_sc.png",
 		project_link: "./Movie App/index.html",
 	},
+	{
+		title: "Background Slider",
+		day: 18,
+		img_link: "./_images/background_slider_sc.png",
+		project_link: "./Background Slider/index.html",
+	},
 ];
 
 export default data;
