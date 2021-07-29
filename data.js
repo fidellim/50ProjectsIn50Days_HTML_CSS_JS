@@ -113,6 +113,12 @@ const data = [
 		img_link: "./_images/theme_clock_sc.png",
 		project_link: "./Theme Clock/index.html",
 	},
+	{
+		title: "Button Ripple Effect",
+		day: 20,
+		img_link: "./_images/button_ripple_effect_sc.png",
+		project_link: "./Button Ripple Effect/index.html",
+	},
 ];
 
 export default data;
