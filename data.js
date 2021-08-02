@@ -119,6 +119,12 @@ const data = [
 		img_link: "./_images/button_ripple_effect_sc.png",
 		project_link: "./Button Ripple Effect/index.html",
 	},
+	{
+		title: "Drag N Drop",
+		day: 21,
+		img_link: "./_images/drag_n_drop_sc.png",
+		project_link: "./Drag N Drop/index.html",
+	},
 ];
 
 export default data;
