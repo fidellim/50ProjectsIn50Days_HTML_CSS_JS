@@ -125,6 +125,12 @@ const data = [
 		img_link: "./_images/drag_n_drop_sc.png",
 		project_link: "./Drag N Drop/index.html",
 	},
+	{
+		title: "Drawing App",
+		day: 22,
+		img_link: "./_images/drawing_app_sc.png",
+		project_link: "./Drawing App/index.html",
+	},
 ];
 
 export default data;
