@@ -29,3 +29,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 21  | Drag N Drop          |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/drag%20n%20drop/)      |
 | 22  | Drawing App          |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/drawing%20app/)       |
 | 23  | Kinetic CSS Loader   |  [Live](https://50-projects-in-50-days-fidellim.netlify.app/kinetic%20css%20loader/)  |
+| 24  | Content Placeholder  |  [Live](https://50-projects-in-50-days-fidellim.netlify.app/content%20placeholder/)   |
