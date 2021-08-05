@@ -131,6 +131,12 @@ const data = [
 		img_link: "./_images/drawing_app_sc.png",
 		project_link: "./Drawing App/index.html",
 	},
+	{
+		title: "Kinetic CSS Loader",
+		day: 23,
+		img_link: "./_images/kinetic_css_loader_sc.png",
+		project_link: "./Kinetic CSS Loader/index.html",
+	},
 ];
 
 export default data;
