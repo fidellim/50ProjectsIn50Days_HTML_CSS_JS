@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+main {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+		url("./images/forest.jpg") no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black;
+	padding: 1rem 1.5rem;
+}
+
+nav > * {
+	margin: 0.5rem 0;
+}
+
+nav.active {
+	background-color: white;
+}
+
+nav h1 {
+	color: white;
+	cursor: pointer;
+}
+
+nav.active h1 {
+	color: black;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+nav ul li {
+	margin: 0.5rem;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+	color: #e63946;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+nav.active a {
+	color: black;
+}
+
+main h1 {
+	margin-bottom: 1rem;
+}
+
+main p {
+	max-width: 700px;
+	width: 100%;
+	line-height: 1.5;
+	padding: 0 0.5rem;
+}
+
+section {
+	padding: 1rem 1.5rem;
+}
+
+.content:first-child {
+	margin-bottom: 2rem;
+}
+
+.content h1 {
+	margin-bottom: 1rem;
+}
+
+@media (min-width: 440px) {
+	nav {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav > * {
+		margin: 0;
+	}
+}

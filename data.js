@@ -143,6 +143,12 @@ const data = [
 		img_link: "./_images/content_placeholder_sc.png",
 		project_link: "./Content Placeholder/index.html",
 	},
+	{
+		title: "Sticky Navbar",
+		day: 24,
+		img_link: "./_images/sticky_navbar_sc.png",
+		project_link: "./Sticky Navbar/index.html",
+	},
 ];
 
 export default data;
