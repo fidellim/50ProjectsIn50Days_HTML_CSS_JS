@@ -1,5 +1,6 @@
 import dataArr from "./data.js";
 const projects = document.querySelector(".projects");
+const btn = document.querySelector(".btn");
 
 const fetchData = (data) => {
 	data.forEach((datum) => {
@@ -23,4 +24,20 @@ const fetchData = (data) => {
 	});
 };
 
+const scrollFunction = () => {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		btn.classList.add("active");
+	} else {
+		btn.classList.remove("active");
+	}
+};
+
+const scrollToTop = () => {
+	window.scrollTo({ top: 0, behavior: "smooth" });
+	btn.classList.remove("active");
+};
+
 fetchData(dataArr);
+
+window.addEventListener("scroll", scrollFunction);
+btn.addEventListener("click", scrollToTop);

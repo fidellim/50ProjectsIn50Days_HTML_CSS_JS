@@ -129,6 +129,30 @@ p {
 	height: auto;
 }
 
+.btn {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	border: 0;
+	width: 40px;
+	height: 40px;
+	font-size: 1rem;
+	border-radius: 7px;
+	background-color: var(--primary);
+	color: var(--secondary);
+	cursor: pointer;
+	transform: translateX(200%) rotate(180deg);
+	transition: 0.5s ease;
+}
+
+.btn.active:active {
+	transform: scale(0.9) translateX(0%) rotate(180deg);
+}
+
+.btn.active {
+	transform: translateX(0%) rotate(180deg);
+}
+
 a,
 a:hover {
 	text-decoration: none;
