@@ -145,7 +145,7 @@ const data = [
 	},
 	{
 		title: "Sticky Navbar",
-		day: 24,
+		day: 25,
 		img_link: "./_images/sticky_navbar_sc.png",
 		project_link: "./Sticky Navbar/index.html",
 	},
