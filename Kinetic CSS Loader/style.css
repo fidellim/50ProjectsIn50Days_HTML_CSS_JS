@@ -24,45 +24,46 @@ body {
 .kinetic::before {
 	content: "";
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 50%;
+	left: 50%;
 	border: 50px solid transparent;
 	border-bottom-color: #e63946;
 }
 
 .kinetic::after {
 	animation: rotateA 2s linear infinite 0.5s;
+	transform: translate(-50%, -50%) rotate(0deg);
 }
 
 .kinetic::before {
-	transform: rotate(90deg);
 	animation: rotateB 2s linear infinite;
+	transform: translate(-50%, -50%) rotate(90deg);
 }
 
 @keyframes rotateA {
 	0%,
 	25% {
-		transform: rotate(0deg);
+		transform: translate(-50%, -50%) rotate(0deg);
 	}
 	50%,
 	75% {
-		transform: rotate(180deg);
+		transform: translate(-50%, -50%) rotate(180deg);
 	}
 	100% {
-		transform: rotate(360deg);
+		transform: translate(-50%, -50%) rotate(360deg);
 	}
 }
 
 @keyframes rotateB {
 	0%,
 	25% {
-		transform: rotate(90deg);
+		transform: translate(-50%, -50%) rotate(90deg);
 	}
 	50%,
 	75% {
-		transform: rotate(270deg);
+		transform: translate(-50%, -50%) rotate(270deg);
 	}
 	100% {
-		transform: rotate(450deg);
+		transform: translate(-50%, -50%) rotate(450deg);
 	}
 }
