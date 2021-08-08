@@ -149,6 +149,12 @@ const data = [
 		img_link: "./_images/sticky_navbar_sc.png",
 		project_link: "./Sticky Navbar/index.html",
 	},
+	{
+		title: "Double Vertical Slider",
+		day: 26,
+		img_link: "./_images/double_vertical_slider_sc.png",
+		project_link: "./Double Vertical Slider/index.html",
+	},
 ];
 
 export default data;
