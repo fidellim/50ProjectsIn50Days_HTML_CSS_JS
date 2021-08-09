@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #00377e;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1rem;
+	margin: 5rem 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 700px;
+	width: 100%;
+}
+
+.fa-github {
+	font-size: 10rem;
+	text-align: center;
+	color: #0077b6;
+	margin-bottom: 0.5rem;
+}
+
+.input {
+	width: 100%;
+	padding: 1rem 1rem;
+	border-radius: 5px;
+	border: 0;
+	margin-bottom: 2rem;
+	background-color: #0077b6;
+}
+
+.input::placeholder {
+	color: black;
+	font-weight: 600;
+	font-size: 0.8rem;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 5px;
+	background-color: #0077b6;
+	width: 100%;
+	max-width: 700px;
+	padding: 1.5rem 1rem;
+}
+
+.profile img {
+	display: block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 10px solid #00377e;
+	margin-bottom: 1rem;
+}
+
+.contents h1 {
+	word-wrap: break-word;
+}
+
+.contents h1,
+.contents p {
+	margin-bottom: 0.75rem;
+}
+
+.stats {
+	display: flex;
+	margin-bottom: 0.75rem;
+}
+
+.stats > * {
+	margin-right: 1rem;
+}
+
+.repos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.repo {
+	color: white;
+	text-decoration: none;
+	padding: 0.5rem;
+	background-color: #00377e;
+	border-radius: 5px;
+	margin: 0.5rem;
+}
+
+@media (min-width: 700px) {
+	.profile {
+		flex-direction: row;
+	}
+	.profile img {
+		margin-right: 1.5rem;
+		margin-bottom: 0rem;
+	}
+}

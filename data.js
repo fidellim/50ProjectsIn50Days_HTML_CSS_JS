@@ -161,6 +161,12 @@ const data = [
 		img_link: "./_images/toast_notification_sc.png",
 		project_link: "./Toast Notification/index.html",
 	},
+	{
+		title: "Github Profiles",
+		day: 28,
+		img_link: "./_images/github_profiles_sc.png",
+		project_link: "./Github Profiles/index.html",
+	},
 ];
 
 export default data;
