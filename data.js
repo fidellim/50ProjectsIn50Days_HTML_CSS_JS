@@ -173,6 +173,12 @@ const data = [
 		img_link: "./_images/double_heart_click_sc.png",
 		project_link: "./Double Heart Click/index.html",
 	},
+	{
+		title: "Auto Text Effect",
+		day: 30,
+		img_link: "./_images/auto_text_effect_sc.png",
+		project_link: "./Auto Text Effect/index.html",
+	},
 ];
 
 export default data;
