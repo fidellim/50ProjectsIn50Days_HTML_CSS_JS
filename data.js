@@ -167,6 +167,12 @@ const data = [
 		img_link: "./_images/github_profiles_sc.png",
 		project_link: "./Github Profiles/index.html",
 	},
+	{
+		title: "Double Heart Click",
+		day: 29,
+		img_link: "./_images/double_heart_click_sc.png",
+		project_link: "./Double Heart Click/index.html",
+	},
 ];
 
 export default data;

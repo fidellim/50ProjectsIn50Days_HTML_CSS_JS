@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #a8dadc;
+}
+
+h1 {
+	margin-bottom: 1rem;
+}
+
+.post {
+	background: url("https://images.unsplash.com/photo-1628353584529-131430070c13?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE0fHJuU0tESHd3WVVrfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+	width: 400px;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 12px;
+	cursor: pointer;
+	position: relative;
+	box-shadow: 10px 14px 20px black;
+}
+
+.post .fa-heart {
+	color: red;
+	position: absolute;
+	animation: grow 0.6s linear;
+	transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+	to {
+		transform: translate(-50%, -50%) scale(10);
+		opacity: 0;
+	}
+}

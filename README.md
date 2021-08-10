@@ -34,3 +34,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 26  | Double Vertical Slider | [Live](https://50-projects-in-50-days-fidellim.netlify.app/double%20vertical%20slider/) |
 | 27  | Toast Notification     |    [Live](https://50-projects-in-50-days-fidellim.netlify.app/toast%20notification/)    |
 | 28  | Github Profiles        |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/github%20profiles/)      |
+| 29  | Double Heart Click     |   [Live](https://50-projects-in-50-days-fidellim.netlify.app/double%20heart%20click/)   |
