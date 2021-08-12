@@ -179,6 +179,12 @@ const data = [
 		img_link: "./_images/auto_text_effect_sc.png",
 		project_link: "./Auto Text Effect/index.html",
 	},
+	{
+		title: "Password Generator",
+		day: 31,
+		img_link: "./_images/password_generator_sc.png",
+		project_link: "./Password Generator/index.html",
+	},
 ];
 
 export default data;

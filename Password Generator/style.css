@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #e29578;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.generatorCard {
+	width: 450px;
+	background-color: #ffddd2;
+	padding: 1rem;
+}
+
+.generatorCard h3 {
+	text-align: center;
+	padding: 0.5rem 0;
+}
+
+.passwordContainer {
+	position: relative;
+	background-color: #ffc6b1;
+	margin: 0.5rem 0 1rem 0;
+	padding: 0rem 0 0rem 1rem;
+	display: flex;
+	align-items: center;
+	height: 40px;
+}
+
+.copyText {
+	position: absolute;
+	bottom: -0.75rem;
+	right: 0;
+	font-size: 0.75rem;
+	opacity: 0;
+	/* transition: 0.5s ease; */
+}
+
+.copyText.active {
+	animation: popUp 1s ease;
+}
+
+.btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0 1rem;
+	margin: 0.25rem;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.btn:active {
+	transform: scale(0.98);
+}
+
+input[type="number"] {
+	border: 0;
+	padding: 0.25rem;
+	width: 100px;
+}
+
+.setting {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+}
+
+.generatePass {
+	background-color: #e29578;
+	border: 0;
+	width: 100%;
+	padding: 0.75rem;
+	cursor: pointer;
+	color: #ffede7;
+}
+
+.generatePass:active {
+	transform: scale(0.98);
+}
+
+@keyframes popUp {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

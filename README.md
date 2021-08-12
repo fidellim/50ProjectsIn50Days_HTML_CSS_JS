@@ -36,3 +36,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 28  | Github Profiles        |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/github%20profiles/)      |
 | 29  | Double Heart Click     |   [Live](https://50-projects-in-50-days-fidellim.netlify.app/double%20heart%20click/)   |
 | 30  | Auto Text Effect       |    [Live](https://50-projects-in-50-days-fidellim.netlify.app/auto%20text%20effect/)    |
+| 31  | Password Generator     |    [Live](https://50-projects-in-50-days-fidellim.netlify.app/password%20generator/)    |
