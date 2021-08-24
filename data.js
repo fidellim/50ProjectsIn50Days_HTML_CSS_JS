@@ -185,6 +185,12 @@ const data = [
 		img_link: "./_images/password_generator_sc.png",
 		project_link: "./Password Generator/index.html",
 	},
+	{
+		title: "Password Generator",
+		day: 32,
+		img_link: "./_images/good_cheap_fast_checkboxes_sc.png",
+		project_link: "./Good Cheap Fast Checkboxes/index.html",
+	},
 ];
 
 export default data;
