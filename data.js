@@ -186,10 +186,16 @@ const data = [
 		project_link: "./Password Generator/index.html",
 	},
 	{
-		title: "Password Generator",
+		title: "Good Cheap Fast Checkboxes",
 		day: 32,
 		img_link: "./_images/good_cheap_fast_checkboxes_sc.png",
 		project_link: "./Good Cheap Fast Checkboxes/index.html",
+	},
+	{
+		title: "Notes App",
+		day: 33,
+		img_link: "./_images/notes_app.png",
+		project_link: "./Notes App/index.html",
 	},
 ];
 
