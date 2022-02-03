@@ -197,6 +197,12 @@ const data = [
 		img_link: "./_images/notes_app.png",
 		project_link: "./Notes App/index.html",
 	},
+	{
+		title: "Animated Countdown",
+		day: 34,
+		img_link: "./_images/animated_countdown.png",
+		project_link: "./Animated Countdown/index.html",
+	},
 ];
 
 export default data;
