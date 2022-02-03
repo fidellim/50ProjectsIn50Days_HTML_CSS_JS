@@ -203,6 +203,12 @@ const data = [
 		img_link: "./_images/animated_countdown.png",
 		project_link: "./Animated Countdown/index.html",
 	},
+	{
+		title: "Image Carousel",
+		day: 35,
+		img_link: "./_images/image_carousel.png",
+		project_link: "./Image Carousel/index.html",
+	},
 ];
 
 export default data;
