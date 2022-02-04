@@ -38,7 +38,7 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 30  | Auto Text Effect           |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/auto%20text%20effect/)       |
 | 31  | Password Generator         |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/password%20generator/)       |
 | 32  | Good Cheap Fast Checkboxes | [Live](https://50-projects-in-50-days-fidellim.netlify.app/good%20cheap%20fast%20checkboxes/) |
-| 33  | Notes App                  |            [Live](https://50-projects-in-50-days-fidellim.netlify.app/notes%app/)             |
+| 33  | Notes App                  |           [Live](https://50-projects-in-50-days-fidellim.netlify.app/notes%20app/)            |
 | 34  | Animated Countdown         |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/animated%20countdown/)       |
 | 35  | Image Carousel             |         [Live](https://50-projects-in-50-days-fidellim.netlify.app/image%20carousel/)         |
 | 36  | Hoverboard                 |            [Live](https://50-projects-in-50-days-fidellim.netlify.app/hoverboard/)            |
