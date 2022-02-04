@@ -209,6 +209,12 @@ const data = [
 		img_link: "./_images/image_carousel.png",
 		project_link: "./Image Carousel/index.html",
 	},
+	{
+		title: "Hoverboard",
+		day: 36,
+		img_link: "./_images/hoverboard.png",
+		project_link: "./Hoverboard/index.html",
+	},
 ];
 
 export default data;
