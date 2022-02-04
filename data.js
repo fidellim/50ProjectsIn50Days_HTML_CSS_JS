@@ -215,6 +215,12 @@ const data = [
 		img_link: "./_images/hoverboard.png",
 		project_link: "./Hoverboard/index.html",
 	},
+	{
+		title: "Pokedex",
+		day: 37,
+		img_link: "./_images/pokedex.png",
+		project_link: "./Pokedex/index.html",
+	},
 ];
 
 export default data;
