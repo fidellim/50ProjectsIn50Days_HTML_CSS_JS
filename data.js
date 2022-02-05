@@ -221,6 +221,12 @@ const data = [
 		img_link: "./_images/pokedex.png",
 		project_link: "./Pokedex/index.html",
 	},
+	{
+		title: "Mobile Tab Navigation",
+		day: 38,
+		img_link: "./_images/mobile_tab_navigation.png",
+		project_link: "./Mobile Tab Navigation/index.html",
+	},
 ];
 
 export default data;
