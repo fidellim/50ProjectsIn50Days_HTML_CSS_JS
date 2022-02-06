@@ -227,6 +227,12 @@ const data = [
 		img_link: "./_images/mobile_tab_navigation.png",
 		project_link: "./Mobile Tab Navigation/index.html",
 	},
+	{
+		title: "Password Strength Background",
+		day: 39,
+		img_link: "./_images/password_strength_background.png",
+		project_link: "./Password Strength Background/index.html",
+	},
 ];
 
 export default data;
