@@ -233,6 +233,12 @@ const data = [
 		img_link: "./_images/password_strength_background.png",
 		project_link: "./Password Strength Background/index.html",
 	},
+	{
+		title: "3D Background Boxes",
+		day: 40,
+		img_link: "./_images/3D_background_boxes.png",
+		project_link: "./3D Background Boxes/index.html",
+	},
 ];
 
 export default data;

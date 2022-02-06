@@ -45,3 +45,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 37  | Pokedex                      |             [Live](https://50-projects-in-50-days-fidellim.netlify.app/pokedex/)              |
 | 38  | Mobile Tab Navigation        |    [Live](https://50-projects-in-50-days-fidellim.netlify.app/mobile%20tab%20navigation/)     |
 | 39  | Password Strength Background | [Live](https://50-projects-in-50-days-fidellim.netlify.app/password%20strength%20background/) |
+| 40  | 3D Background Boxes          |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/3d%20background%20boxes/)      |
