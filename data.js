@@ -239,6 +239,12 @@ const data = [
 		img_link: "./_images/3D_background_boxes.png",
 		project_link: "./3D Background Boxes/index.html",
 	},
+	{
+		title: "Verify Account UI",
+		day: 41,
+		img_link: "./_images/verify_account_ui.png",
+		project_link: "./Verify Account UI/index.html",
+	},
 ];
 
 export default data;
