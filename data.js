@@ -251,6 +251,18 @@ const data = [
 		img_link: "./_images/live_user_filter.png",
 		project_link: "./Live User Filter/index.html",
 	},
+	{
+		title: "Feedback UI Design",
+		day: 43,
+		img_link: "./_images/feedback_ui_design.png",
+		project_link: "./Feedback UI Design/index.html",
+	},
+	{
+		title: "Custom Range Slider",
+		day: 44,
+		img_link: "./_images/custom_range_slider.png",
+		project_link: "./Custom Range Slider/index.html",
+	},
 ];
 
 export default data;
