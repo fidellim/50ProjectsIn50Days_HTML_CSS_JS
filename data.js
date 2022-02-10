@@ -263,6 +263,12 @@ const data = [
 		img_link: "./_images/custom_range_slider.png",
 		project_link: "./Custom Range Slider/index.html",
 	},
+	{
+		title: "Netflix Navigation",
+		day: 45,
+		img_link: "./_images/netflix_navigation.png",
+		project_link: "./Netflix Navigation/index.html",
+	},
 ];
 
 export default data;

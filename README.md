@@ -50,3 +50,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 42  | Live User Filter             |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/live%20user%20filter/)       |
 | 43  | Feedback UI Design           |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/feedback%20ui%20design/)      |
 | 44  | Custom Range Slider          |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/custom%20range%20slider/)      |
+| 45  | Netflix Navigation           |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/netflix%20navigation/)       |
