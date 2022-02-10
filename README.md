@@ -47,3 +47,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 39  | Password Strength Background | [Live](https://50-projects-in-50-days-fidellim.netlify.app/password%20strength%20background/) |
 | 40  | 3D Background Boxes          |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/3d%20background%20boxes/)      |
 | 41  | Verify Account UI            |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/verify%20account%20ui/)       |
+| 42  | Live User Filter             |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/live%20user%20filter/)       |

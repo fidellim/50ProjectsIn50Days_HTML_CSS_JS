@@ -245,6 +245,12 @@ const data = [
 		img_link: "./_images/verify_account_ui.png",
 		project_link: "./Verify Account UI/index.html",
 	},
+	{
+		title: "Live User Filter",
+		day: 42,
+		img_link: "./_images/live_user_filter.png",
+		project_link: "./Live User Filter/index.html",
+	},
 ];
 
 export default data;
