@@ -275,6 +275,12 @@ const data = [
 		img_link: "./_images/quiz_app.png",
 		project_link: "./Quiz App/index.html",
 	},
+	{
+		title: "Testimonial Box Switcher",
+		day: 47,
+		img_link: "./_images/testimonial_box_switcher.png",
+		project_link: "./Testimonial Box Switcher/index.html",
+	},
 ];
 
 export default data;

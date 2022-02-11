@@ -52,3 +52,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 44  | Custom Range Slider          |     [Live](https://50-projects-in-50-days-fidellim.netlify.app/custom%20range%20slider/)      |
 | 45  | Netflix Navigation           |       [Live](https://50-projects-in-50-days-fidellim.netlify.app/netflix%20navigation/)       |
 | 46  | Quiz App                     |            [Live](https://50-projects-in-50-days-fidellim.netlify.app/quiz%20app/)            |
+| 47  | Testimonial Box Switcher     |   [Live](https://50-projects-in-50-days-fidellim.netlify.app/testimonial%20box%20switcher/)   |
