@@ -269,6 +269,12 @@ const data = [
 		img_link: "./_images/netflix_navigation.png",
 		project_link: "./Netflix Navigation/index.html",
 	},
+	{
+		title: "Quiz App",
+		day: 46,
+		img_link: "./_images/quiz_app.png",
+		project_link: "./Quiz App/index.html",
+	},
 ];
 
 export default data;
