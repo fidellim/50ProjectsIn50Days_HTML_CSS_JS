@@ -55,3 +55,4 @@ Live Site: [Link](https://50-projects-in-50-days-fidellim.netlify.app/)
 | 47  | Testimonial Box Switcher     |   [Live](https://50-projects-in-50-days-fidellim.netlify.app/testimonial%20box%20switcher/)   |
 | 48  | Random Image Feed            |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/random%20image%20feed/)       |
 | 49  | Todo List                    |           [Live](https://50-projects-in-50-days-fidellim.netlify.app/todo%20list/)            |
+| 50  | Insect Catch Game            |      [Live](https://50-projects-in-50-days-fidellim.netlify.app/insect%20catch%20game/)       |

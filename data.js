@@ -293,6 +293,12 @@ const data = [
 		img_link: "./_images/todo_list.png",
 		project_link: "./Todo List/index.html",
 	},
+	{
+		title: "Insect Catch Game",
+		day: 50,
+		img_link: "./_images/insect_catch_game.png",
+		project_link: "./Insect Catch Game/index.html",
+	},
 ];
 
 export default data;
