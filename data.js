@@ -281,6 +281,12 @@ const data = [
 		img_link: "./_images/testimonial_box_switcher.png",
 		project_link: "./Testimonial Box Switcher/index.html",
 	},
+	{
+		title: "Random Image Feed",
+		day: 48,
+		img_link: "./_images/random_image_feed.png",
+		project_link: "./Random Image Feed/index.html",
+	},
 ];
 
 export default data;
