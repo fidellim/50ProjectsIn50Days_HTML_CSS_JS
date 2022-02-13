@@ -287,6 +287,12 @@ const data = [
 		img_link: "./_images/random_image_feed.png",
 		project_link: "./Random Image Feed/index.html",
 	},
+	{
+		title: "Todo List",
+		day: 49,
+		img_link: "./_images/todo_list.png",
+		project_link: "./Todo List/index.html",
+	},
 ];
 
 export default data;
